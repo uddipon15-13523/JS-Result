@@ -1,9 +1,9 @@
 function leap (years){
     if((years % 4 ==0 && years % 400 !=0 ||years %100 ==0)){
-        return "leap years";
+        return "This year is a leap year";
     }
     else{
-        return "no leap years";
+        return "This year is not leap year";
     }
 }
 console.log(leap(2022));
